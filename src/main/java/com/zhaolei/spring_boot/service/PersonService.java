@@ -25,6 +25,10 @@ public class PersonService {
             throw new PersonException(ResultEnum.OTHER);
         }
     }
+
+    public Person getOneAge(Integer id){
+        return personDao.findOne(id);
+    }
 }
 
 

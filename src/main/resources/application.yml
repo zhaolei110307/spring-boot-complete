@@ -2,7 +2,7 @@
 server:
   port: 8888
   context-path: /boot
-
+name: hahaha
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
